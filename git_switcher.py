@@ -16,6 +16,7 @@ profiles = {
     }
 }
 
+# this is for selecting the profile
 profile = sys.argv[1] if len(sys.argv) > 1 else None
 
 if profile not in profiles:
